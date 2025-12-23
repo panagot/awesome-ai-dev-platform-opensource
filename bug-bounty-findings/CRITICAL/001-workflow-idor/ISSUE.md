@@ -35,7 +35,13 @@ Insecure Direct Object Reference (IDOR) vulnerability in workflow endpoints allo
 
 ## 📸 Screenshots or Video Evidence
 
-Screenshots demonstrating unauthorized access to other users' workflows are attached below.
+Screenshots demonstrating unauthorized access to other users' workflows:
+
+![IDOR Evidence - Workflow ID 603804808873652](./evidence/001-idor--api-workflows--603804808873652-2025-12-23T14-32-12-324Z.png)
+
+![IDOR Evidence - Workflow ID 6401175](./evidence/002-idor--api-workflows--6401175-2025-12-23T14-32-16-540Z.png)
+
+**Note**: Screenshots are also available in the `evidence/` directory of this finding.
 
 ## 🔄 Steps to Reproduce
 

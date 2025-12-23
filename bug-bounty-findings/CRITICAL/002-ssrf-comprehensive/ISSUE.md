@@ -35,7 +35,21 @@ Multiple Server-Side Request Forgery (SSRF) vulnerabilities exist across various
 
 ## 📸 Screenshots or Video Evidence
 
-Representative screenshots demonstrating SSRF exploitation across different parameters are attached below.
+Representative screenshots demonstrating SSRF exploitation across different parameters:
+
+![SSRF via url parameter - localhost](./evidence/003-ssrf-url-httploc-2025-12-23T14-33-05-137Z.png)
+
+![SSRF via url parameter - 127.0.0.1](./evidence/004-ssrf-url-http127-2025-12-23T14-33-10-956Z.png)
+
+![SSRF via url parameter - http](./evidence/005-ssrf-url-http-2025-12-23T14-33-15-196Z.png)
+
+![SSRF via url parameter - 0.0.0.0](./evidence/006-ssrf-url-http00-2025-12-23T14-33-20-408Z.png)
+
+![SSRF via url parameter - 169.254](./evidence/007-ssrf-url-http169-2025-12-23T14-33-25-038Z.png)
+
+![SSRF via link parameter - localhost](./evidence/008-ssrf-link-httploc-2025-12-23T14-33-30-040Z.png)
+
+**Note**: Additional screenshots are available in the `evidence/` directory of this finding.
 
 ## 🔄 Steps to Reproduce
 

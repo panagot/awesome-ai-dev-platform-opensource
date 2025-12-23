@@ -28,7 +28,9 @@ The API endpoint `/api/users/{id}` allows unauthorized access to user data throu
 
 ## 📸 Screenshots or Video Evidence
 
-Screenshots will be captured during manual verification of the endpoint.
+Screenshots demonstrating the IDOR vulnerability will be captured during manual verification. The vulnerability can be verified by accessing `/api/users/{id}` with another user's ID while authenticated.
+
+**Note**: Evidence folder will be created upon manual verification.
 
 ## 🔄 Steps to Reproduce
 
