@@ -26,12 +26,13 @@ This folder contains professionally documented security vulnerabilities discover
    - Status: Ready for submission
    - Fix: Complete code implementation ready
 
-### HIGH Severity (8 findings)
+### HIGH Severity (1 finding)
 
-3-10. **API_ENDPOINT** - Various API endpoint vulnerabilities
-   - Information disclosure, unauthorized access, privilege escalation
-   - CVSS Score: 7.0-7.5 (High)
+3. **API_ENDPOINT_60** - IDOR in User Data Access
+   - CVSS Score: 7.5 (High)
+   - Domain: `api.aixblock.io`
    - Status: Ready for submission
+   - Fix: Complete code implementation ready
 
 ## 📁 Structure
 
@@ -52,9 +53,11 @@ bug-bounty-findings/
 │       ├── fixes/
 │       └── evidence/
 └── HIGH/
-    ├── 003-api-endpoint-59/
-    ├── 004-api-endpoint-60/
-    └── ... (8 total)
+    └── 003-api-endpoint-60/
+        ├── ISSUE.md
+        ├── REPORT.md
+        ├── FIX.md
+        └── fixes/ (Code fixes ready for PR)
 ```
 
 ## 🔗 Links
